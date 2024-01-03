@@ -1,0 +1,143 @@
+@media only screen and (max-width: 768px) {
+  .header {
+    background-color: yellowgreen;
+    padding: 0;
+    width: 100%;
+    height: 150vh;
+  }
+  .header .navbar {
+    background-color: white;
+  }
+  .header .navbar b {
+    color: yellowgreen;
+  }
+  .header .navbar .nav a, .header .navbar .nav select, .header .navbar .nav button, .header .navbar .nav i {
+    display: none;
+  }
+  .header .navbar .nav i:first-of-type {
+    display: inline;
+    color: black;
+    margin-right: 2rem;
+    border: 1px solid black;
+    padding: 7px 15px;
+    border-radius: 5px;
+  }
+  .header .banner {
+    height: 150vh;
+    text-align: center;
+  }
+  .header .banner .banner__contact {
+    grid-template-columns: 1fr;
+  }
+  .header .banner .banner__contact button {
+    margin: 0 auto;
+    margin-top: 1rem;
+  }
+  .header .banner .banner__contact h1 {
+    font-size: 3rem;
+  }
+  .Search .title {
+    width: 100%;
+  }
+  .Search .title h2 {
+    font-size: 2.3rem;
+  }
+  .Search .title p {
+    width: 100%;
+  }
+  .Search .input {
+    width: 100%;
+  }
+  .Search .input input {
+    width: 78%;
+  }
+  .Search .Search__contact {
+    grid-template-columns: 1fr 1fr;
+  }
+  .GreenHost .titl {
+    width: 98%;
+  }
+  .GreenHost .GreenHost__contact {
+    grid-template-columns: 1fr;
+  }
+  .GreenHost .GreenHost__contact h2 {
+    font-size: 2rem;
+  }
+  .GreenHost .GreenHost__contact .item__contact {
+    grid-template-columns: 1fr;
+  }
+  .Our .titl {
+    width: 100%;
+  }
+  .Our .titl h2 {
+    font-size: 2rem;
+  }
+  .Our .titl p {
+    text-align: center;
+  }
+  .Our .Our__contact {
+    grid-template-columns: 1fr;
+  }
+  .Server .title {
+    width: 100%;
+  }
+  .Server .title h2 {
+    font-size: 2rem;
+  }
+  .Server .Server__contact {
+    grid-template-columns: 1fr;
+  }
+  .Server .Server__contact .item__contact {
+    grid-template-columns: 1fr;
+  }
+  .testimoniat .test__contact {
+    grid-template-columns: 1fr;
+  }
+  .testimoniat .test__contact .item {
+    display: none;
+  }
+  .testimoniat .test__contact .item:last-of-type {
+    display: inline;
+  }
+  .Members .title {
+    width: 100%;
+  }
+  .Members .title h2 {
+    font-size: 2rem;
+  }
+  .Members .Members__contact {
+    grid-template-columns: 1fr;
+  }
+  .Members .Members__contact .item {
+    height: 65vh;
+  }
+  .Members .Members__contact .item i {
+    margin-left: 4rem;
+  }
+  .footer {
+    padding-top: 0rem;
+    background-image: url(o);
+    width: 100%;
+    height: 100%;
+  }
+  .footer .title {
+    padding-top: 1rem;
+  }
+  .footer .title .input {
+    width: 80%;
+  }
+  .footer .footer__contact {
+    grid-template-columns: 1fr;
+  }
+  .footer .footer__contact .item__contact {
+    grid-template-columns: 1fr;
+  }
+  .copyright {
+    grid-template-columns: 1fr;
+    text-align: center;
+    width: 100%;
+  }
+  .copyright a:first-of-type {
+    margin-left: 0;
+  }
+}/*# sourceMappingURL=responsiv.css.map */

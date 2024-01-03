@@ -1,0 +1,484 @@
+.header {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem 0;
+  height: 92vh;
+  background-color: rgb(133, 181, 36);
+}
+.header .navbar b {
+  color: white;
+  font-size: 2.2rem;
+  margin-left: 2rem;
+}
+.header .navbar .nav a {
+  text-decoration: none;
+  color: white;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 1.1rem;
+}
+.header .navbar .nav a:hover {
+  color: red;
+}
+.header .navbar .nav i:first-of-type {
+  display: none;
+}
+.header .navbar .nav button {
+  margin-right: 2rem;
+  margin-left: 1rem;
+}
+.header .navbar .nav select {
+  background-color: rgb(133, 181, 36);
+  font-size: 1.1rem;
+  outline: 0;
+}
+.header .banner {
+  height: 80vh;
+  padding-top: 3rem;
+  background-image: url(/img/bg-bottom-hero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header .banner .banner__contact {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  padding-left: 1rem;
+}
+.header .banner .banner__contact h1 {
+  font-size: 4rem;
+  color: white;
+}
+.header .banner .banner__contact button {
+  padding: 10px 30px;
+  background-color: red;
+  border: 0;
+  color: white;
+  border-radius: 5px;
+  display: block;
+  margin-top: 1rem;
+}
+
+.Search {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem 0;
+  margin-top: 3rem;
+}
+.Search .title {
+  text-align: center;
+  margin-bottom: 2rem;
+  margin: 0 auto;
+  width: 55%;
+  height: 30vh;
+  background-image: url(/img/bg-domain.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Search .title h2 {
+  font-size: 3rem;
+}
+.Search .input {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid rgb(181, 181, 181);
+  border-radius: 6px;
+  padding: 10px 10px;
+}
+.Search .input input {
+  border: 0;
+  outline: 0;
+  width: 92%;
+}
+.Search .input span {
+  background-color: rgb(133, 181, 39);
+  padding: 7px 10px;
+  color: white;
+  border-radius: 5px;
+}
+.Search .Search__contact {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 3rem;
+  text-align: center;
+}
+.Search .Search__contact b {
+  display: block;
+  font-size: 1.2rem;
+  color: yellowgreen;
+}
+
+.GreenHost {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+.GreenHost .GreenHost__contact {
+  padding-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  align-items: center;
+}
+.GreenHost .GreenHost__contact h2 {
+  font-size: 3rem;
+}
+.GreenHost .GreenHost__contact p {
+  opacity: 0.8;
+}
+.GreenHost .GreenHost__contact img {
+  width: 90%;
+}
+.GreenHost .GreenHost__contact .item__contact {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+.GreenHost .GreenHost__contact .item__contact .item {
+  background-color: rgb(239, 239, 239);
+  text-align: center;
+  margin-top: 1rem;
+  padding: 10px 10px;
+  border-radius: 7px;
+}
+.GreenHost .GreenHost__contact .item__contact .item i {
+  color: yellowgreen;
+  font-size: 1.7rem;
+}
+
+.Our {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+.Our .titl {
+  text-align: center;
+  margin-bottom: 2rem;
+  margin: 0 auto;
+  width: 55%;
+  margin-bottom: 2rem;
+}
+.Our .titl h2 {
+  font-size: 3rem;
+}
+.Our .Our__contact {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+.Our .Our__contact .item {
+  box-shadow: 0 0 20px rgb(235, 235, 235);
+  border-radius: 10px;
+  background-color: rgb(152, 209, 37);
+}
+.Our .Our__contact .item .img {
+  background-color: white;
+  margin-top: 5px;
+  padding-bottom: 2rem;
+  border-radius: 6px;
+}
+.Our .Our__contact .item .img .title {
+  text-align: center;
+  padding-top: 1rem;
+  border: 0;
+  color: black;
+  border-bottom: 1px solid rgb(212, 212, 212);
+}
+.Our .Our__contact .item .img p:last-of-type {
+  color: rgb(60, 128, 0);
+  text-align: center;
+  margin-top: 1rem;
+}
+.Our .Our__contact .item .img .button {
+  background-color: red;
+}
+.Our .Our__contact .item .img span {
+  display: block;
+  margin-left: 7rem;
+  font-weight: bold;
+}
+.Our .Our__contact .item .img span b {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+.Our .Our__contact .item .img button {
+  padding: 8px 19px;
+  border: 0;
+  background-color: rgb(117, 170, 11);
+  color: white;
+  border-radius: 7px;
+  margin-left: 8rem;
+  margin-top: 1rem;
+}
+.Our .Our__contact .item .img .tr {
+  border: 1px solid rgb(142, 142, 142);
+  width: 100%;
+  margin-top: 1rem;
+  opacity: 0.7;
+}
+.Our .Our__contact .item .img a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  display: block;
+  opacity: 0.8;
+  border-bottom: 1px solid rgb(159, 159, 159);
+  margin-top: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.Our .Our__contact .item .img a i {
+  margin-right: 10px;
+  color: yellowgreen;
+  font-weight: bold;
+}
+
+.Server {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+.Server .title {
+  text-align: center;
+  margin-bottom: 2rem;
+  margin: 0 auto;
+  width: 55%;
+  margin-top: 1rem;
+}
+.Server .title h2 {
+  font-size: 3rem;
+}
+.Server .Server__contact {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+.Server .Server__contact .item__contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-top: 2rem;
+  border: 0;
+  border-right: 1px solid rgb(179, 179, 179);
+}
+
+.gren {
+  color: yellowgreen;
+}
+
+.testimoniat {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+.testimoniat .test__contact {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+.testimoniat .test__contact .item {
+  background-color: yellowgreen;
+  padding-top: 5px;
+  border-radius: 5px;
+}
+.testimoniat .test__contact .item .img {
+  background-color: rgb(239, 239, 239);
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+.testimoniat .test__contact .item .img a {
+  text-decoration: none;
+  color: black;
+}
+.testimoniat .test__contact .item .img a img {
+  width: 15%;
+  border-radius: 100%;
+}
+
+.Members {
+  padding-top: 2rem;
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+.Members .title {
+  text-align: center;
+  margin-bottom: 2rem;
+  margin: 0 auto;
+  width: 55%;
+}
+.Members .title h2 {
+  font-size: 3rem;
+}
+.Members .Members__contact {
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+}
+.Members .Members__contact .item {
+  height: 55vh;
+  box-shadow: 0 0 20px rgb(223, 223, 223);
+  border-radius: 7px;
+  background-color: yellowgreen;
+  transition: all 0.2s linear;
+}
+.Members .Members__contact .item:hover {
+  background-color: red;
+  transition: all 0.2s linear;
+}
+.Members .Members__contact .item .img {
+  margin-top: 5px;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+  background-color: white;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.Members .Members__contact .item img {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 70%;
+  border-radius: 100%;
+}
+.Members .Members__contact i {
+  padding: 10px 10px;
+  background-color: white;
+  border-radius: 7px;
+  color: yellowgreen;
+  margin-top: 1rem;
+  margin-left: 2.5rem;
+  transition: all 0.5s linear;
+}
+.Members .Members__contact .item:hover i {
+  color: red;
+}
+
+.footer {
+  background-image: url(/img/bg-bottom-footer.png);
+  background-size: cover;
+  background-color: yellowgreen;
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+.footer .title {
+  margin-top: 15rem;
+}
+.footer .title .input {
+  border-radius: 7px;
+  width: 30%;
+  background-color: white;
+  padding: 10px 10px;
+}
+.footer .title .input span {
+  background-color: yellowgreen;
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: white;
+}
+.footer .title .input input {
+  border: 0;
+  outline: 0;
+  width: 78%;
+}
+.footer .footer__contact {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  gap: 3rem;
+}
+.footer .footer__contact .item {
+  background-color: rgb(241, 241, 241);
+  padding: 10px 10px;
+  width: 80%;
+  border-radius: 7px;
+}
+.footer .footer__contact .item input, .footer .footer__contact .item textarea {
+  display: flex;
+  align-items: center;
+  border: 0;
+  width: 90%;
+  margin-top: 1rem;
+  height: 6vh;
+  text-indent: 5px;
+  border-radius: 5px;
+}
+.footer .footer__contact .item textarea {
+  height: 7vh;
+}
+.footer .footer__contact .item button {
+  width: 90%;
+  margin-top: 1rem;
+  border: 0;
+  border-radius: 5px;
+  background-color: yellowgreen;
+  padding: 7px;
+  color: white;
+}
+.footer .footer__contact .item__contact {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  margin-top: 2rem;
+}
+.footer .footer__contact .item__contact .item {
+  background-color: yellowgreen;
+}
+.footer .footer__contact .item__contact .item a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin-top: 10px;
+  transition: all 0.1s linear;
+}
+.footer .footer__contact .item__contact .item a:hover {
+  margin-left: 2px;
+  transition: all 0.1s linear;
+}
+.footer .footer__contact .item__contact .item i {
+  color: white;
+  font-size: 0.8rem;
+  display: block;
+  margin-top: 1rem;
+  letter-spacing: 2px;
+}
+.footer .footer__contact .item__contact .item b {
+  color: white;
+  padding: 6px 6px;
+  border-radius: 100%;
+  border: 2px solid rgb(209, 209, 209);
+  font-size: 1rem;
+  margin-top: 1rem;
+  transition: all 0.3s linear;
+}
+.footer .footer__contact .item__contact .item b:hover {
+  background-color: white;
+  color: yellowgreen;
+  border: 2px solid rgb(255, 255, 255);
+  transition: all 0.3s linear;
+}
+
+.copyright {
+  color: white;
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem 0;
+  padding-left: 2rem;
+  background-color: yellowgreen;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+.copyright a {
+  color: white;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+.copyright a:first-of-type {
+  margin-left: 17rem;
+}/*# sourceMappingURL=style.css.map */

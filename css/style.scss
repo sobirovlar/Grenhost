@@ -1,0 +1,429 @@
+@mixin title () {
+    text-align: center;
+    margin-bottom: 2rem;
+    margin: 0 auto;
+    width: 55%;
+}
+@mixin grid ($repeat){
+    display: grid;
+    grid-template-columns: $repeat;
+    gap: 3rem   ;
+}
+@mixin card () {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem 0;
+
+}
+.header{
+    @include card();
+height: 92vh;
+  background-color: rgb(133, 181, 36);
+  .navbar{
+    b{
+        color: white;
+        font-size: 2.2rem;
+        margin-left: 2rem;
+    }
+    .nav{
+        a{
+    text-decoration: none;
+    color: white;
+    margin-left: 15px ;
+    margin-right: 15px;
+    font-size: 1.1rem;
+    &:hover{
+        color: red;
+    }
+      }
+        i:first-of-type{
+display: none;
+        }
+        button{
+            margin-right: 2rem;
+            margin-left: 1rem;
+        }
+        select{
+            background-color: rgb(133, 181, 36);
+            font-size: 1.1rem;
+            outline: 0;
+        }
+    }
+  }
+  .banner{
+   height: 80vh;
+   padding-top: 3rem;
+    background-image: url(/img/bg-bottom-hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    .banner__contact{
+        @include grid(repeat(2,1fr));
+        padding-left: 1rem;
+        h1{
+            
+            font-size: 4rem; 
+            color: white;
+        }
+        button{
+            padding: 10px 30px;
+            background-color: red;
+            border: 0;color: white;
+            border-radius: 5px;
+            display: block;
+            margin-top: 1rem;
+        }
+    }
+  }
+}
+.Search{
+    @include card();
+    margin-top: 3rem;
+   .title{
+    @include title();
+    h2{
+        font-size: 3rem;
+    }
+    height: 30vh;
+    background-image: url(/img/bg-domain.png);
+    background-size: cover ;
+    background-repeat: no-repeat;
+   }
+   
+        .input{
+            width: 80%;
+            margin: 0 auto;
+            border: 1px solid rgb(181, 181, 181);
+            border-radius: 6px;
+            padding: 10px 10px;
+            input{
+                border: 0;
+                outline: 0;
+                width: 92%;
+            }
+            span{
+                background-color: rgb(133, 181, 39);
+                padding: 7px 10px;
+                color: white;
+                border-radius: 5px;
+            }
+        }
+        .Search__contact{
+            width: 80%;
+            margin: 0 auto;
+            margin-top: 1rem;
+            @include grid(repeat(6,1fr));
+            text-align: center;
+            b{
+                display: block;
+                font-size: 1.2rem;
+                color: yellowgreen;
+            }
+    }
+}
+.GreenHost{
+    @include card();
+    .GreenHost__contact{
+        padding-top: 3rem;
+        @include grid(repeat(2,1fr));
+        align-items: center;
+        h2{
+            font-size: 3rem ;
+        }
+        p{
+            opacity: 0.8;
+        }
+        img{
+            width: 90%;
+        }
+        .item__contact{
+            @include grid(repeat(3,1fr));
+
+            .item{
+                i{
+                    color: yellowgreen;
+                    font-size: 1.7rem;
+                }
+                background-color: rgb(239, 239, 239);
+                text-align: center;
+                margin-top: 1rem;
+                padding: 10px 10px;
+                border-radius: 7px;
+            }
+        }
+    }
+}
+.Our{
+.titl{@include title(); margin-bottom: 2rem ; h2{font-size: 3rem;}}
+   @include card();
+    .Our__contact{
+        @include grid(repeat(3,1fr));
+        .item{
+            box-shadow: 0 0 20px rgb(235, 235, 235);
+            border-radius: 10px;
+            background-color: rgb(152, 209, 37);
+
+            .img{
+                background-color: white;
+                margin-top: 5px;
+                padding-bottom: 2rem;
+                border-radius: 6px;
+                .title{text-align: center; padding-top: 1rem; border: 0; color: black; border-bottom: 1px solid rgb(212, 212, 212); }
+                p:last-of-type{
+                    color: rgb(60, 128, 0);
+                    text-align: center;
+                    margin-top: 1rem;
+                }
+                .button{background-color: red;}
+                span{
+                    display: block;
+                    margin-left: 7rem;
+                    font-weight: bold;
+                    b{font-size: 2.2rem; font-weight: bold;}
+                }
+                button{
+                    padding: 8px 19px;
+                    border: 0;
+                    background-color: rgb(117, 170, 11);
+                    color: white;
+                    border-radius: 7px;
+                    margin-left: 8rem;
+                    margin-top: 1rem;
+                }
+                .tr{
+                    border: 1px solid rgb(142, 142, 142);width: 100%; margin-top: 1rem;opacity: 0.7;
+                }
+                a{
+                    text-decoration: none;
+                    color: rgb(0, 0, 0);
+                    display: block;
+                    opacity: 0.8;
+                    border-bottom: 1px solid rgb(159, 159, 159);
+                    margin-top: 2rem;
+                    margin-left: 1rem;
+                    margin-right: 1rem;
+                    i{
+                        margin-right: 10px;
+                        color: yellowgreen;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+
+}
+.Server{
+    @include card();
+    .title{
+        @include title();
+        margin-top: 1rem;
+        h2{font-size: 3rem;}
+    }
+    .Server__contact{
+        margin-top: 3rem;
+        @include grid(repeat(2,1fr));
+        .item__contact{
+            @include grid(1fr 1fr); 
+            margin-top: 2rem;
+            border: 0;
+           border-right: 1px solid rgb(179, 179, 179);
+        }
+    }
+}
+.gren{
+    color: yellowgreen;
+}
+.testimoniat{
+    @include card();
+    .test__contact{
+        margin-top: 5rem;
+    @include grid(repeat(3,1fr));
+    .item{
+        background-color: yellowgreen;
+        padding-top: 5px;
+        border-radius: 5px;
+       
+        .img {
+            background-color: rgb(239, 239, 239);
+            padding: 10px 10px;
+        border-radius: 5px;
+        a{
+text-decoration: none;
+color: black;
+
+        img{
+            width: 15%;
+            border-radius: 100%;
+        }
+    }
+
+        }
+    }
+    }
+}
+.Members{
+    padding-top: 2rem;
+    @include card();
+    .title{
+        @include title();
+        h2{
+            font-size: 3rem;
+        }
+    }
+    .Members__contact{
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+        @include grid(repeat(4,1fr));
+        .item{
+            height: 55vh;
+            box-shadow: 0 0 20px rgb(223, 223, 223);
+            border-radius: 7px ;    
+            background-color: yellowgreen;
+            transition: all 0.2s linear;
+            &:hover{
+                background-color: red;
+            transition: all 0.2s linear;
+            }
+.img{
+    margin-top: 5px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+img{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 70%;
+    border-radius: 100%;
+  
+}
+        }
+        i{
+            padding: 10px 10px ;
+            background-color: white;
+            border-radius: 7px;
+            color: yellowgreen;
+            margin-top: 1rem;
+            margin-left: 2.5rem;
+            transition: all 0.5s linear;
+        }
+        .item:hover i{color: red;}
+    }
+}
+.footer{
+    
+    background-image: url(/img/bg-bottom-footer.png);
+    background-size: cover;
+    background-color: yellowgreen;
+    @include card();
+    .title{
+        margin-top: 15rem;
+        .input{
+            border-radius: 7px;
+            width: 30%;
+            background-color: white;
+            padding: 10px 10px;
+            span{
+                background-color: yellowgreen;
+                padding: 5px 10px;
+                border-radius: 10px;
+                color: white;
+            }
+            input{
+                border: 0;
+                outline: 0;
+                width: 78%;
+               
+            }
+        }
+    }
+    .footer__contact{
+        .item{
+            background-color: rgb(241, 241, 241);
+            padding: 10px 10px;
+            width: 80%;
+            border-radius: 7px;
+            input,textarea{
+                display: flex;
+                align-items: center;
+                border: 0;
+                width: 90%;
+                margin-top: 1rem;
+                height: 6vh;
+                text-indent: 5px;
+                border-radius: 5px;
+            }
+            textarea{ height: 7vh;}
+            button{
+                width: 90%;
+                margin-top: 1rem;
+                border: 0;
+                border-radius: 5px ;
+                background-color: yellowgreen;
+                padding: 7px;
+                color: white
+            }
+        }
+@include grid(60% 40%);
+.item__contact{
+    @include grid(repeat(3,1fr));
+    margin-top: 2rem;
+    .item{
+        background-color: yellowgreen;
+        a{
+            display: block;
+            text-decoration: none;
+            color: white;
+            margin-top: 10px;
+            transition: all 0.1s linear;
+            &:hover{
+                margin-left: 2px;
+                transition: all 0.1s linear;
+            }
+            
+        }
+        i{
+            color: white;
+            font-size: 0.8rem;
+            display: block;
+            margin-top: 1rem;
+            letter-spacing: 2px;
+        }
+        b{
+            color: white;
+            padding: 6px 6px ;
+            border-radius: 100%;
+            border: 2px solid rgb(209, 209, 209);
+            font-size: 1rem;
+            margin-top: 1rem;
+            transition: all 0.3s linear;
+            &:hover{
+                background-color: white;
+                color: yellowgreen;
+                border: 2px solid rgb(255, 255, 255)   ;
+                transition: all 0.3s linear;
+            }
+        }
+    }
+    
+}
+    }
+    }
+
+.copyright{
+    color: white;
+    @include card();
+    padding-left: 2rem;
+background-color: yellowgreen;
+@include grid(repeat(2,1fr));
+a{
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+a:first-of-type{
+margin-left: 17rem;
+}
+}

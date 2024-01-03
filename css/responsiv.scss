@@ -1,0 +1,162 @@
+@media only screen and (max-width:768px) {
+    .header{
+        background-color: yellowgreen;
+        padding: 0;
+        width: 100%;
+        height: 150vh;
+        .navbar{
+       background-color: white;
+       b{
+        color: yellowgreen;
+       }
+      .nav{
+      a ,select,button,i{
+            display: none;
+        }
+        i:first-of-type{
+           display: inline;
+            color: black;
+           margin-right: 2rem;
+           border: 1px solid black;
+           padding: 7px 15px;
+           border-radius: 5px;
+        }
+
+    }
+} 
+.banner{
+    height: 150vh;
+    text-align: center;
+    .banner__contact{
+        grid-template-columns: 1fr;
+        button{
+            margin: 0 auto;
+            margin-top: 1rem;
+        }
+        h1{
+            font-size: 3rem;
+        }
+    }
+}
+    }
+.Search{
+    .title{
+        width: 100%;
+        h2{
+            font-size: 2.3rem;
+        }
+        p{
+            width: 100%;
+        }
+    }
+    .input{
+        width: 100%;
+        input{
+            width: 78%;
+        }
+    }
+    .Search__contact{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+    .GreenHost{
+        .titl{
+            width: 98%;
+        }
+       .GreenHost__contact{
+        grid-template-columns: 1fr;
+        h2{
+            font-size: 2rem;
+        }
+        .item__contact{
+            grid-template-columns: 1fr;
+        }
+       }
+    }
+    .Our{
+        .titl{
+            width: 100%;
+            h2{
+                font-size: 2rem;
+            }
+            p{
+                text-align:center;
+            }
+        }
+        .Our__contact{
+            grid-template-columns: 1fr;
+        }
+    }
+    .Server{
+        .title{
+            width: 100%;
+            h2{
+                font-size: 2rem;
+            }
+        }
+        .Server__contact{
+            grid-template-columns: 1fr;
+            .item__contact{
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+    .testimoniat{
+        .test__contact{
+            grid-template-columns: 1fr;
+            .item{
+                display: none;
+            }
+            .item:last-of-type{
+                display: inline;
+              
+            }
+        }
+    }
+    .Members{
+        .title{
+            width: 100%;
+            h2{
+                font-size: 2rem;
+            }
+        }
+        .Members__contact{
+            grid-template-columns: 1fr;
+            .item{
+                height: 65vh;
+                i{
+                    margin-left: 4rem;
+                }
+            }
+        }
+    }
+    .footer{  
+        padding-top: 0rem;
+        .title{
+        padding-top: 1rem;
+           .input{
+            width: 80%;
+           }
+        }
+
+        background-image: url(o);    
+        width: 100%;
+        height: 100%;
+        .footer__contact{
+            grid-template-columns: 1fr;
+            .item__contact{
+                grid-template-columns: 1fr;
+            }
+           }
+          
+        }
+        .copyright{
+            grid-template-columns: 1fr;
+            text-align: center;
+            width: 100%;
+            a:first-of-type{
+                margin-left: 0;
+            }
+        }
+    }
+
